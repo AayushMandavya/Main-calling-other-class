@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
 
 
-        String x=new String();
-        shape object=new shape() ;
-        System.out.println(object.width);
-        System.out.println(object.length);
+
+        shape object=new shape(10,50) ;
+//        System.out.println(object.width);
+//        System.out.println(object.length);
         object.area();
 
     }

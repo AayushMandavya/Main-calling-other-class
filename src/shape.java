@@ -1,12 +1,12 @@
 public class shape {
      int width;
     int length;
-    //default constructor
-    shape(){
-        width=10;
-        length=50;
+    //parameter constructor
+    shape(int w,int l){
+        width=w;
+        length=l;
     }
     public void area(){
-        System.out.println("Area is"+width*length);
+        System.out.println("Area is "+width*length);
     }
 }
